@@ -17,8 +17,8 @@ function modelLoaded(){
 function gotPoses(results){
     if(results.length > 0){
         console.log(results)
-        olhosX = results[0].pose.nose.x-183
-        olhosY = results[0].pose.nose.y-150
+        olhosX = results[0].pose.nose.x-272
+        olhosY = results[0].pose.nose.y-145
     }
 }
 function draw(){
